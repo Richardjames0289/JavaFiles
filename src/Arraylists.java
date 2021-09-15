@@ -25,5 +25,10 @@ public class Arraylists {
 		for(int i=0; i < names.size(); i++) {
 			System.out.println(names.get(i));
 		}
+//		get() specific elements
+//		set() different elements
+//		remove() elements
+		
+		
 	}
 }
