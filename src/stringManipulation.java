@@ -56,10 +56,19 @@ public class stringManipulation {
           if (string1.substring(i, i + 1).contentEquals(" ") || i == (string1.length() - 1)) {
               space++;
               
-              System.out.println(string1.substring(i, i+4));
+              System.out.println(i);
           }
       }
-		
+//      
+//      public static void method2(String input) {
+//          int space = 0;
+//          for (int i = 0; i < input.length(); i++) {
+//              if (input.substring(i, i + 1).contentEquals(" ") || i == (input.length() - 1)) {
+//                  System.out.println(input.substring(space, i + 1));
+//                  space = i + 1;
+//              }
+//          }
+//      }
 		
 	}
 }
