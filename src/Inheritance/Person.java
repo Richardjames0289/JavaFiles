@@ -7,13 +7,10 @@ package Inheritance;
 //    - The Subclass toString() methods should include the same information as Person, but with their own unqiue info on top.
 //    - Use encapsulation - private class variables with getters & setters.
 //    - Use a separate runner class with a main method.
-eat
+
 public class Person {
 	
-	public static void main(String[] args) {
 		
-	}
-	
 	private String name;
 	private int age;
 	
@@ -22,6 +19,13 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
+		
+
+	public Person() {
+		super();
+	}
+
+
 
 	public String getName() {
 		return name;
@@ -45,6 +49,11 @@ public class Person {
 	 public void sleep() {
 		 System.out.println("I like to sleep");
 	 }
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + "]";
+	}
 	
 
 	
